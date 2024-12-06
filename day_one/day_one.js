@@ -37,7 +37,7 @@ let resultSum = 0;
 
 for(var i = 0; i < lists.leftList.length; i++) {
     
-    const result = Math.abs(parseInt(lists.leftList[i]) - parseInt(lists.rightList[i]));
+    const result = (parseInt(lists.leftList[i]) - parseInt(lists.rightList[i]));
     resultSum += result;
 }
 
